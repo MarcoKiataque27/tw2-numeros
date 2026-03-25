@@ -10,28 +10,19 @@ Aplicación PHP orientada a objetos que solicita al usuario N elementos y muestr
 
 ## Ejecución
 
+primero levanta en la terminal la pagina 
+
 ```bash
-php -S localhost:8082 -t public/
+live@minios:~/podman/apachePhp$ podman-compose up
 ```
 
-Luego abre `http://localhost:80` en tu navegador.
+Luego abre `(http://172.25.0.216:8082/noo/index.php)` en tu navegador.
 
 ## Uso
 
 1. Ingresa la cantidad de números a generar (n) - requerido (1-1000)
 2. Opcionalmente ingresa el rango mínimo y máximo
 3. Haz clic en "Generar"
-
-## Comandos disponibles
-
-| Comando | Descripción |
-|---------|-------------|
-| `composer install` | Instalar dependencias |
-| `composer lint` | Análisis de código (CodeSniffer) |
-| `composer lint:fix` | Auto-corregir estilo de código |
-| `composer stan` | Análisis estático avanzado |
-| `composer test` | Ejecutar tests unitarios |
-| `composer check` | Ejecutar lint, stan y tests |
 
 ## Estructura
 
