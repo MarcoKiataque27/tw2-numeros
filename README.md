@@ -4,16 +4,17 @@ Aplicación PHP orientada a objetos que solicita al usuario N elementos y muestr
 
 ## Requisitos
 
-- 
-- 
+- Docker
+- docker-compose
+- Puerto 8082 disponible
 
 ## Ejecución
 
 ```bash
-php -S localhost:8000 -t public/
+php -S localhost:8082 -t public/
 ```
 
-Luego abre `http://localhost:8000` en tu navegador.
+Luego abre `http://localhost:80` en tu navegador.
 
 ## Uso
 
