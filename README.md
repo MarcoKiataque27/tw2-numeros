@@ -31,6 +31,5 @@ Luego abre `(http://172.25.0.216:8082/noo/index.php)` en tu navegador.
   - `Request.php` - Manejo y validación de entrada
   - `RandomGenerator.php` - Generación de números aleatorios
   - `Renderer.php` - Renderizado de vistas
-- `public/` - Entry point
-  - `index.php` - Front controller
+- `index.php` - Front controller
 - `tests/` - Tests unitarios
