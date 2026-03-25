@@ -4,14 +4,8 @@ Aplicación PHP orientada a objetos que solicita al usuario N elementos y muestr
 
 ## Requisitos
 
-- PHP 8.1+
-- Composer
-
-## Instalación
-
-```bash
-composer install
-```
+- 
+- 
 
 ## Ejecución
 
